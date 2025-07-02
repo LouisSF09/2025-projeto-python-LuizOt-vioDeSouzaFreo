@@ -1,0 +1,34 @@
+01. Entrada:
+Arquivo: truco.py
+Linha 121: esc = input(f'{msg}: ').strip()
+Explicação: A variável recebe a entrada do usuário, mostrando um msg, e ignorando eventuais espaços através da função .strip(), sendo apenas válida quando é um número dentro das opções apresentadas.
+
+02. Saída:
+Arquivo: truco.py
+Linha 88: print(f'{msg:^{TAM}}')
+Explicação: Exibe uma msg personalizada usando f-string, deixando-a centralizada no meio de uma linha com TAM (50 no caso deste programa) caracteres.
+
+03. Variáveis:
+Arquivo: truco.py
+Linha 18: MAX = int(6)
+Explicação: Declara a variável MAX do tipo inteiro, atribuindo a ela o valor 6. Essa variável é responsável por delimitar a qtd máxima de tentos em um jogo.
+
+04. Operadores:
+Arquivo: truco.py
+Linha 280: if resultado == 'Ganhador: Jogador':
+Explicação: Faz uma verificação se a variável resultado (que indica o resultado da rodada) é igual ao texto 'Ganhador: Jogador' (que indica que o Jogador ganhou a rodada).
+
+05. Estrutura de Decisão:
+Arquivo: truco.py
+Linha 126: if esc in opcoes:
+Explicação: Verifica se o parâmetro esc está dentro do parâmetro opcoes (lista), ou seja, verifica se a escolha do usuário é uma escolha válida
+
+06. Estrutura de Repetição:
+Arquivo: truco.py
+Linha 244: for i in range(3):
+Explicação: Repete o código dentro da indentação seguinte 3 vezes, sendo cada uma das vezes correspondente a uma rodada.
+
+07. Sub-Rotina
+Arquivo: truco.py
+Linha 109: def disCartas():
+Explicação: Declara a função disCartas, responsável por distribuir aleatoriamente 3 cartas para o Jogador e 3 cartas para o Bot.
